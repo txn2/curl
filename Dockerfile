@@ -4,4 +4,4 @@ RUN apk --no-cache add ca-certificates curl
 
 WORKDIR /
 
-ENTRYPOINT ["curl"]
+ENTRYPOINT ["/bin/sh"]
